@@ -1,0 +1,192 @@
+/* Maintags css */
+
+body {
+  font-family: "Montserrat";
+}
+p {
+  color: #8f8f8f;
+}
+h3 {
+  font-family: "Merienda";
+  font-size: 1.7rem;
+}
+.container-fluid {
+  padding: 3% 10% 7%;
+}
+h2 {
+  font-family: "montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 7%;
+}
+em {
+  margin-left: 2rem;
+}
+
+/* Title css */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+#title-text {
+  font-family: "Merienda";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Navbar css */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding-right: 2rem;
+}
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.4rem;
+}
+
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* features css */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.col-lg-4 {
+  text-align: center;
+  padding: 5%;
+}
+.icon-heart {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon-check:hover {
+  color: #ff4c68;
+}
+.icon-bull:hover {
+  color: #ff4c68;
+}
+.icon-check {
+  color: #a4be7b;
+  margin-bottom: 1rem;
+}
+.icon-bull {
+  color: #a4be7b;
+  margin-bottom: 1rem;
+}
+.icon-heart:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+}
+
+/* press */
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.press-logo {
+  width: 10%;
+  margin: 0 2rem;
+}
+
+/* pricing */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.flex-item {
+  margin: 20px;
+}
+.card-deck {
+  font-family: "montserrat-bold";
+}
+#pricing {
+  text-align: center;
+}
+#price-h2 {
+  margin-bottom: 0%;
+  font-family: "Merienda";
+}
+
+/* media queries */
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* call to action */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: "Montserrat";
+  color: white;
+  padding: 7% 15%;
+}
+
+#cta-text {
+  font-size: 2.5rem;
+  padding-bottom: 5%;
+}
+
+.btn-cta {
+  margin: 0 1.5% 3%;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
